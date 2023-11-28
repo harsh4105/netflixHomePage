@@ -1,0 +1,218 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none; 
+    font-family: Helvetica, sans-serif; 
+    color: whitesmoke;
+    list-style-type: none;
+    width: auto;
+}
+#container{
+    background-color: rgb(80, 80, 80);
+}
+
+#bodyBackImg{
+    width: 100%;
+    height: auto;
+    filter:brightness(40%);
+}
+    
+#netflixsLogo{
+    height: 80px;
+    width: 148px;
+    position:absolute;
+    top: 10px;
+    left: 150px;
+}
+#langselect{
+    height: 32px;
+    width: 126px;
+    position:absolute;
+    top: 30px;
+    right: 250px;
+    color: white;
+    background-color: rgb(39, 38, 38);
+    font-size: 15px;
+    border-radius: 5px;
+    border: 0.5px solid whitesmoke;
+    background: transparent;
+}
+#signButton{
+    height: 32px;
+    width: 76px;
+    position:absolute;
+    top: 30px;
+    right: 150px;
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color: red;
+    border: none;
+    font-weight: bold;
+    font-size:medium;
+}
+#mainHeading{
+    font-size:46px;
+    position:absolute;
+    top: 280px;
+    left: 200px;
+    color: #ffffff;
+    font-weight: bolder;   
+}
+#secondHeading{
+    position:absolute;
+    top: 360px;
+    left: 450px;
+    font-family: Helvetica,sans-serif;
+    color: rgb(255,255,255);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+#thirdHeading{
+    position:absolute;
+    top: 420px;
+    left: 320px;
+    font-family: Helvetica,sans-serif;
+    color: rgb(255,255,255);
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+#emailInput{
+    height: 50px;
+    width: 360px;
+    position:absolute;
+    top: 470px;
+    left: 330px;
+    background: transparent;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    font-size: large;
+    color: #f1efef;
+    backdrop-filter: blur(8px);
+}
+::placeholder{
+    color: #f1efef;
+}
+#getStartButton{
+    height: 55px;
+    width: 220px;
+    position:absolute;
+    top: 470px;
+    right: 330px;
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color: red;
+    border: none;
+    font-weight: bold;
+    font-size:25px;
+}
+#emailLogo{
+    position:absolute;
+    top: 485px;
+    left: 650px;
+    color: #f1efef;
+    font-size: large;
+}
+.containSelection{
+    background-color: black;
+    color: whitesmoke;
+    height: 500px;
+    width: 100%;
+    margin-top: 5px;
+}
+#cs1H2{
+    font-size: 48px;
+    color: white;
+    font-weight:bold;
+}
+#cs1P{
+    font-size: 24px;
+}
+#cs1Text{
+    width: 480px;
+    height: 200px;
+    position: absolute;
+    left:100px;
+    top: 900px;
+}
+#cs1Img{
+    height: 400px;
+    width: 500px;
+    position: absolute;
+    right:30px;
+    top: 750px;
+}
+#cs1Vid{
+    position: absolute;
+    right:100px;
+    top: 830px;
+    width: 370px;
+    height: 220px;
+}
+#cs2Img{
+    position: absolute;
+    left:50px;
+    top: 1230px;
+    width: 640px;
+    height: 480px;
+}
+#cs2Vid{
+    position: absolute;
+    left:170px;
+    top: 1280px;
+    height: 250px;
+    width: 400px;
+}
+#cs2Text{
+    width: 480px;
+    height: 200px;
+    position: absolute;
+    right:50px;
+    top: 1380px;
+}
+#cs2H2{
+    font-size: 48px;
+    color: white;
+    font-weight:bold;
+}
+#cs2P{
+    font-size: 24px;
+}
+#footer{
+    height: 350px;
+    background-color: rgb(33, 31, 31);
+    margin-top:10px;
+}
+#que{
+    font-size: 28px;
+    color: rgb(244, 241, 241);
+    font-weight:bold;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+ul{
+    height: 100px;
+    width: 200px
+}
+a{
+    margin: 20px;
+}
+#footerUl1{
+    position: relative;
+    left: 20px;
+    top: 100px;
+}
+#footerUl2{
+    position: relative;
+    left: 250px;
+}
+#footerUl3{
+    position: relative;
+    bottom: 100px;
+    left: 500px;
+}
+#copyright{
+    position: relative;
+    bottom: 50px;
+    left: 40px;
+}
